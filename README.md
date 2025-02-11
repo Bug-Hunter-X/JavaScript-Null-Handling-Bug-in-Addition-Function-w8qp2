@@ -1,0 +1,3 @@
+# JavaScript Null Handling Bug
+
+This repository demonstrates a common, yet subtle, bug in JavaScript related to null value handling in functions. The `bug.js` file contains a function that attempts to add two numbers but prematurely returns null if either input is null.  This can lead to unexpected behavior when null is present as a value. The `bugSolution.js` demonstrates a correct solution using nullish coalescing or similar methods. 
